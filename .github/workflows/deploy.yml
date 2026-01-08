@@ -12,7 +12,6 @@ permissions:
 
 jobs:
   build-and-deploy:
-    # This environment block is the fix for your HttpError
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
